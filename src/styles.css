@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.together :nth-child(2) {
+  background-color: blue;
+}
+
+.together :nth-child(3) {
+  background-color: whitesmoke;
+}
+
+.together :nth-child(4) {
+  background-color: purple;
+}
+
+.together :nth-child(5) {
+  background-color: burlywood;
+}
+
+.together :nth-child(6) {
+  background-color: cornflowerblue;
+}
+
+.together {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+  background-color: darkgrey;
+}
